@@ -1,4 +1,4 @@
-import "./header.css";
+import { Container } from "./header";
 import { BrowserRouter as Router } from "react-router-dom";
 import { NavHashLink, HashLink } from "react-router-hash-link";
 import { useState } from "react";
@@ -14,7 +14,7 @@ export function Header() {
     setActive(false);
   }
   return (
-    <header className="header-fixed">
+    <Container className="header-fixed">
       <Router>
         <HashLink smooth to="#home" className="logo">
           <span>{"<Abdel "}</span>
@@ -55,6 +55,6 @@ export function Header() {
           }}
         ></div>
       </Router>
-    </header>
+    </Container>
   );
 }
