@@ -13,6 +13,7 @@ import vueIcon from "../../files/vue-icon.svg";
 import boostrapIcon from "../../files/bootstrap-icon.svg";
 
 import { Hero } from "../Hero/Hero.jsx";
+import { About } from "../About/About.jsx";
 
 export function Main() {
   return (
@@ -238,6 +239,7 @@ export function Main() {
         }}
       />
       <Hero></Hero>
+      <About></About>
     </Container>
   );
 }
