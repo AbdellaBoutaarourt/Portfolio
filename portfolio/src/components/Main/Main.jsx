@@ -238,7 +238,6 @@ export function Main() {
         }}
       />
       <Hero></Hero>
-      <div style={{ height: "2000px" }}></div>
     </Container>
   );
 }
