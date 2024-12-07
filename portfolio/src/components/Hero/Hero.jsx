@@ -64,6 +64,11 @@ export function Hero() {
         <AnimatedSection delay={0.4}>
           <h3>Full Stack Developer</h3>
         </AnimatedSection>
+        <AnimatedSection delay={0.6}>
+          <p className="small-resume">
+            Building Experience One Line of Code at a Time! 💻✨
+          </p>
+        </AnimatedSection>
         <AnimatedSection delay={0.8}>
           <BrowserRouter>
             <NavHashLink smooth to="#contact" className="button">
