@@ -1,0 +1,127 @@
+[
+    {
+        "title": "video communication web app",
+        "description": "A real-time video communication application built using React and WebRTC. The platform allows users to connect and communicate via video calls in a user-friendly interface.",
+        "github": "https://github.com/AbdellaBoutaarourt/WebRTC",
+        "technologies": [
+            "React",
+            "WebRTC",
+            "Socket.IO",
+            "Node.js",
+            "Express",
+            "Tailwind"
+        ]
+    },
+    {
+        "title": "BoxerNet",
+        "description": "A Django web application that allows users to create, view, edit, and delete articles related to boxers. The platform aims to provide a space for sharing information and insights about boxers.",
+        "github": "https://github.com/AbdellaBoutaarourt/Prototype-1-Python-django-",
+        "technologies": [
+            "Django",
+            "Python",
+            "SQLite",
+            "Bootstrap"
+        ]
+    },
+    {
+        "title": "School dashboard ",
+        "description": "A student management dashboard allowing users to view and manage subjects, classes, and students. Build with React, and uses NodeJS and Express.",
+        "github": "https://github.com/AbdellaBoutaarourt/Prototype-Dashboard",
+        "live": "https://dashboard-prototype3.netlify.app/login",
+        "technologies": [
+            "React",
+            "Tailwind",
+            "Chart.js",
+            "Node.js",
+            "Express.js",
+            "Supabase"
+        ]
+    },
+    {
+        "title": "AI Object Detective app",
+        "description": "A cross-platform Augmented Reality (AR) application that combines object recognition with interactive AR content. The app utilizes machine learning to recognize objects in the real world through the device's camera.",
+        "github": "https://github.com/AbdellaBoutaarourt/AR-app",
+        "technologies": [
+            "React Native",
+            "TensorFlow.js",
+            "Expo"
+        ]
+    },
+    {
+        "title": "E-Commerce Website",
+        "description": "An e-commerce platform built using Sanity.io and Next.js, offering seamless shopping experiences.",
+        "github": "https://github.com/AbdelBt/e-com-sanity",
+        "live": "https://e-com-sanity-ruddy.vercel.app/",
+        "technologies": [
+            "Sanity.io",
+            "Next.js",
+            "Tailwind",
+            "Stripe"
+        ]
+    },
+    {
+        "title": "Real-Time Chat App",
+        "description": "A real-time chat app using React.js for the frontend and Node.js for the backend.",
+        "github": "https://github.com/AbdelBt/chatapp",
+        "live": "https://vocal-bublanina-a2315e.netlify.app/",
+        "technologies": [
+            "React",
+            "Node.js",
+            "Express",
+            "Socket.IO",
+            "Nodemon"
+        ]
+    },
+    {
+        "title": "Football Fans Web App",
+        "description": "A web app where users can search for their favorite teams, save them, and access information such as team details, standings, and top scorers.",
+        "github": "https://github.com/AbdellaBoutaarourt/AbdellaBoutaarourt.github.io",
+        "live": "https://efootball-app.netlify.app",
+        "technologies": [
+            "CSS",
+            "MongoDB",
+            "Node.js"
+        ]
+    },
+    {
+        "title": "Gamification Tool",
+        "description": "A tool developed with Laravel to enhance user engagement and motivation through points, challenges, and other gamification features.",
+        "github": "https://github.com/EHB-MCT/back-end-course-project-AbdellaBoutaarourt",
+        "technologies": [
+            "Laravel",
+            "Bootstrap",
+            "PHP",
+            "MySQL"
+        ]
+    },
+    {
+        "title": "Anime Tracker",
+        "description": "A web app where users can insert the anime they have seen, manage entries, and delete them if needed.",
+        "github": "https://github.com/EHB-MCT/portfolio-starter-AbdellaBoutaarourt",
+        "technologies": [
+            "Docker",
+            "PostgreSQL",
+            "Express"
+        ]
+    },
+    {
+        "title": "Element Identification App",
+        "description": "A Kotlin app that identifies elements based on characteristics. Users answer questions via a text interface, guided by a traits database.",
+        "github": "https://github.com/EHB-MCT/dev3-into-the-wild-AbdellaBoutaarourt",
+        "technologies": [
+            "Kotlin",
+            "SQLite"
+        ]
+    },
+    {
+        "title": "Park Management Tool",
+        "description": "Manage an amusement park with features like adding, editing, deleting attractions, tracking maintenance, handling breakdowns, and managing categories.",
+        "github": "https://github.com/EHB-MCT/dev4-rollercoaster-tycoon-mohammadr-abdellab",
+        "technologies": [
+            "Kotlin",
+            "Spring Boot",
+            "Vue.js",
+            "MySQL"
+        ]
+    }
+]
