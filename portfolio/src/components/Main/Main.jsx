@@ -15,6 +15,7 @@ import boostrapIcon from "../../files/bootstrap-icon.svg";
 import { Hero } from "../Hero/Hero.jsx";
 import { About } from "../About/About.jsx";
 import { Project } from "../Project/Project.jsx";
+import { Contact } from "../Contact/Contact.jsx";
 
 export function Main() {
   return (
@@ -242,6 +243,7 @@ export function Main() {
       <Hero></Hero>
       <About></About>
       <Project></Project>
+      <Contact></Contact>
     </Container>
   );
 }
