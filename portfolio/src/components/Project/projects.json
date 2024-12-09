@@ -5,10 +5,8 @@
         "github": "https://github.com/AbdellaBoutaarourt/WebRTC",
         "technologies": [
             "React",
-            "WebRTC",
             "Socket.IO",
             "Node.js",
-            "Express",
             "Tailwind"
         ]
     },
@@ -25,15 +23,13 @@
     },
     {
         "title": "School dashboard ",
-        "description": "A student management dashboard allowing users to view and manage subjects, classes, and students. Build with React, and uses NodeJS and Express.",
+        "description": "A student management dashboard allowing users to view and manage subjects, classes, and students. Build with React, and uses NodeJS",
         "github": "https://github.com/AbdellaBoutaarourt/Prototype-Dashboard",
         "live": "https://dashboard-prototype3.netlify.app/login",
         "technologies": [
             "React",
             "Tailwind",
-            "Chart.js",
             "Node.js",
-            "Express.js",
             "Supabase"
         ]
     },
@@ -67,9 +63,7 @@
         "technologies": [
             "React",
             "Node.js",
-            "Express",
-            "Socket.IO",
-            "Nodemon"
+            "Socket.IO"
         ]
     },
     {

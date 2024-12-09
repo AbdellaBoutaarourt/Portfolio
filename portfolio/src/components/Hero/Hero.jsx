@@ -5,7 +5,6 @@ import { Container } from "./hero.js";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import Illustration from "../../files/illustration.svg";
-import { NavHashLink } from "react-router-hash-link";
 import linkedin from "../../files/linkedin.svg";
 import githubIcon from "../../files/github.svg";
 import Hello from "../../files/Hello.gif";
@@ -71,9 +70,9 @@ export function Hero() {
         </AnimatedSection>
         <AnimatedSection delay={0.8}>
           <BrowserRouter>
-            <NavHashLink smooth to="#contact" className="button">
+            <a href="mailto:your-email@example.com" className="button">
               Contact
-            </NavHashLink>
+            </a>
           </BrowserRouter>
         </AnimatedSection>
         <AnimatedSection delay={1}>
