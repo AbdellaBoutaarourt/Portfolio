@@ -1,6 +1,5 @@
 import { Container } from "./styles";
 import emailIcon from "../../files/email-icon.svg";
-import phoneIcon from "../../files/phone-icon.svg";
 
 export function Contact() {
   return (
