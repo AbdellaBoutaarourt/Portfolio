@@ -1,19 +1,32 @@
 [
     {
-        "title": "video communication web app",
-        "description": "A real-time video communication application built using React and WebRTC. The platform allows users to connect and communicate via video calls in a user-friendly interface.",
+        "title": "Video Communication Web App",
+        "description": "A real-time video communication application built using React and WebRTC.",
+        "fullDescription": "This platform enables users to connect and communicate via video calls in a user-friendly interface. It features real-time signaling through Socket.IO, ensuring low-latency video and audio calls.",
         "github": "https://github.com/AbdellaBoutaarourt/WebRTC",
+        "live": "https://videowebcall.netlify.app",
+        "imageSrc": "src/files/webrtc.png",
         "technologies": [
             "React",
             "Socket.IO",
             "Node.js",
-            "Tailwind"
+            "Tailwind",
+            "Stripe"
         ]
     },
     {
         "title": "BoxerNet",
-        "description": "A Django web application that allows users to create, view, edit, and delete articles related to boxers. The platform aims to provide a space for sharing information and insights about boxers.",
+        "description": "A Django web application that allows users to create, view, edit, and delete articles related to boxers.",
+        "fullDescription": "BoxerNet is an informational platform for boxing enthusiasts, allowing users to add, edit, and share boxer profiles. Think of it as a Wikipedia for Boxers, where users can contribute by providing a boxer's name, image, and description. Anyone can view the profiles, but only the creator can edit or delete their entries. Users can sign up for an account to add or manage content, and if they don't have one, they can easily create an account. The platform is built with Django and Bootstrap, featuring a responsive design and SQLite for storing data. It includes full CRUD functionality, ensuring users can contribute and maintain accurate boxer information.",
         "github": "https://github.com/AbdellaBoutaarourt/Prototype-1-Python-django-",
+        "imageSrc": "src/files/Boxernet1.png",
+        "images": [
+            "src/files/Boxernet1.png",
+            "src/files/Boxernet2.png",
+            "src/files/Boxernet3.png",
+            "src/files/Boxernet4.png",
+            "src/files/Boxernet5.png"
+        ],
         "technologies": [
             "Django",
             "Python",
@@ -22,10 +35,24 @@
         ]
     },
     {
-        "title": "School dashboard ",
-        "description": "A student management dashboard allowing users to view and manage subjects, classes, and students. Build with React, and uses NodeJS",
-        "github": "https://github.com/AbdellaBoutaarourt/Prototype-Dashboard",
+        "title": "School Dashboard",
+        "description": "A student management dashboard allowing users to view and manage subjects, classes, and students.",
+        "fullDescription": "The dashboard is built with React and Tailwind CSS for modern UI design. It supports CRUD operations for managing educational data, with a backend powered by Node.js and Supabase for database management and authentication.",
+        "github": "https://github.com/AbdellaBoutaarourt/Dashboard",
         "live": "https://dashboard-prototype3.netlify.app/login",
+        "imageSrc": "src/files/dashboard.png",
+        "images": [
+            "src/files/dashboard.png",
+            "src/files/dashboard1.png",
+            "src/files/dashboard2.png",
+            "src/files/dashboard3.png",
+            "src/files/dashboard4.png",
+            "src/files/dashboard5.png"
+        ],
+        "authentication": {
+            "email": "leerkracht.john@gmail.com",
+            "password": "abdella"
+        },
         "technologies": [
             "React",
             "Tailwind",
@@ -34,9 +61,11 @@
         ]
     },
     {
-        "title": "AI Object Detective app",
-        "description": "A cross-platform Augmented Reality (AR) application that combines object recognition with interactive AR content. The app utilizes machine learning to recognize objects in the real world through the device's camera.",
+        "title": "AI Object Detective App",
+        "description": "A cross-platform AR application that combines object recognition with interactive AR content.",
+        "fullDescription": "The app leverages TensorFlow.js for real-time object detection and recognition through the device's camera. React Native and Expo ensure compatibility across platforms, making it a versatile educational and interactive tool.",
         "github": "https://github.com/AbdellaBoutaarourt/AR-app",
+        "videoSrc": "src/files/videoApp.mp4",
         "technologies": [
             "React Native",
             "TensorFlow.js",
@@ -44,9 +73,46 @@
         ]
     },
     {
+        "title": "Real-Time Chat App",
+        "description": "A real-time chat app using React.js for the frontend and Node.js for the backend.",
+        "fullDescription": "The app supports instant messaging with room-based chat functionality. Built with React and Node.js with Socket.io, it uses Socket.IO for real-time communication.",
+        "github": "https://github.com/AbdelBt/chatapp",
+        "imageSrc": "src/files/chatapp.png",
+        "images": [
+            "src/files/chatapp.png",
+            "src/files/chatapp1.png"
+        ],
+        "live": "https://vocal-bublanina-a2315e.netlify.app/",
+        "technologies": [
+            "React",
+            "Node.js",
+            "Socket.IO"
+        ]
+    },
+    {
+        "title": "Employee Management Web App",
+        "description": "A web application for managing employee availability, appointments, and services.",
+        "fullDescription": "This platform allows employees to manage their availability, schedule appointments, and view them in a calendar. It supports adding and removing services and includes features for efficient appointment management. The frontend is built with React and Tailwind CSS, while the backend uses Node.js and Express.",
+        "videoSrc": "src/files/management.mp4",
+        "technologies": [
+            "React",
+            "Tailwind CSS",
+            "Node.js",
+            "Express"
+        ]
+    },
+    {
         "title": "E-Commerce Website",
-        "description": "An e-commerce platform built using Sanity.io and Next.js, offering seamless shopping experiences.",
+        "description": "An e-commerce platform built using Sanity.io and Next.js.",
+        "fullDescription": "This platform offers a seamless online shopping experience with a product management backend powered by Sanity.io. It supports secure payments through Stripe and features a highly responsive frontend built with Next.js and Tailwind CSS.",
         "github": "https://github.com/AbdelBt/e-com-sanity",
+        "imageSrc": "src/files/ecom.png",
+        "images": [
+            "src/files/ecom.png",
+            "src/files/nextcommerce.png",
+            "src/files/nextcommerce1.png",
+            "src/files/sanity.png"
+        ],
         "live": "https://e-com-sanity-ruddy.vercel.app/",
         "technologies": [
             "Sanity.io",
@@ -56,21 +122,19 @@
         ]
     },
     {
-        "title": "Real-Time Chat App",
-        "description": "A real-time chat app using React.js for the frontend and Node.js for the backend.",
-        "github": "https://github.com/AbdelBt/chatapp",
-        "live": "https://vocal-bublanina-a2315e.netlify.app/",
-        "technologies": [
-            "React",
-            "Node.js",
-            "Socket.IO"
-        ]
-    },
-    {
         "title": "Football Fans Web App",
-        "description": "A web app where users can search for their favorite teams, save them, and access information such as team details, standings, and top scorers.",
+        "description": "A web app where users can search for their favorite teams, save them, and access team details.",
+        "fullDescription": "The app provides football statistics, standings, and top scorers using external APIs. It includes a MongoDB database for storing user preferences and a responsive frontend with custom CSS.",
         "github": "https://github.com/AbdellaBoutaarourt/AbdellaBoutaarourt.github.io",
         "live": "https://efootball-app.netlify.app",
+        "imageSrc": "src/files/footballapp.png",
+        "images": [
+            "src/files/footballapp.png",
+            "src/files/foot.png",
+            "src/files/foot1.jpg",
+            "src/files/foot2.jpg",
+            "src/files/foot3.png"
+        ],
         "technologies": [
             "CSS",
             "MongoDB",
@@ -79,8 +143,10 @@
     },
     {
         "title": "Gamification Tool",
-        "description": "A tool developed with Laravel to enhance user engagement and motivation through points, challenges, and other gamification features.",
+        "description": "A tool developed with Laravel to enhance user engagement and motivation through gamification features.",
+        "fullDescription": "The platform integrates a points-based system, challenges, and leaderboards to boost user engagement. It features authentication, content management, and a modern UI built with Bootstrap and PHP.",
         "github": "https://github.com/EHB-MCT/back-end-course-project-AbdellaBoutaarourt",
+        "imageSrc": "src/files/project.png",
         "technologies": [
             "Laravel",
             "Bootstrap",
@@ -90,8 +156,10 @@
     },
     {
         "title": "Anime Tracker",
-        "description": "A web app where users can insert the anime they have seen, manage entries, and delete them if needed.",
+        "description": "A web app where users can track, add, and manage anime they have seen.",
+        "fullDescription": "The platform allows users to maintain an anime watchlist, add reviews, and delete entries when needed. It uses Docker for deployment, PostgreSQL for persistent storage, and Express.js for the backend API.",
         "github": "https://github.com/EHB-MCT/portfolio-starter-AbdellaBoutaarourt",
+        "imageSrc": "src/files/project.png",
         "technologies": [
             "Docker",
             "PostgreSQL",
@@ -100,8 +168,10 @@
     },
     {
         "title": "Element Identification App",
-        "description": "A Kotlin app that identifies elements based on characteristics. Users answer questions via a text interface, guided by a traits database.",
+        "description": "A Kotlin app that identifies elements based on characteristics.",
+        "fullDescription": "This Android app guides users through a decision-making process to identify unknown elements using a traits database. It features a minimalistic design and SQLite for data storage.",
         "github": "https://github.com/EHB-MCT/dev3-into-the-wild-AbdellaBoutaarourt",
+        "imageSrc": "src/files/project.png",
         "technologies": [
             "Kotlin",
             "SQLite"
@@ -109,8 +179,10 @@
     },
     {
         "title": "Park Management Tool",
-        "description": "Manage an amusement park with features like adding, editing, deleting attractions, tracking maintenance, handling breakdowns, and managing categories.",
+        "description": "Manage an amusement park with features like adding attractions, tracking maintenance, and managing categories.",
+        "fullDescription": "This management tool supports CRUD operations for attractions, maintenance tracking, and operational planning. It uses Spring Boot for backend services, Vue.js for a responsive frontend, and MySQL for data persistence.",
         "github": "https://github.com/EHB-MCT/dev4-rollercoaster-tycoon-mohammadr-abdellab",
+        "imageSrc": "src/files/project.png",
         "technologies": [
             "Kotlin",
             "Spring Boot",

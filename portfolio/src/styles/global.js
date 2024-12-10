@@ -41,18 +41,6 @@ export const GlobalStyle = createGlobalStyle`
         color: var(--black);
       }
 
-      form{
-        input,textarea{
-          transition: 0.5s;
-          border: solid 1px var(--black);
-          color: var(--black);
-          &::placeholder{
-            transition: 0.5s;
-            color: var(--black);
-          }
-        }
-      }
-
     }
   }
 

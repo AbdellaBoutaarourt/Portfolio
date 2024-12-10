@@ -15,7 +15,7 @@ export const Container = styled.header`
   top: 0;
   left: 0;
   width: 100vw;
-  z-index: 1000;
+  z-index: 100;
 
   nav{
     display: flex;

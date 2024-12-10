@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { ProjectModal } from "./ProjectModal.jsx";
 import { Container } from "./project.js";
 import githubIcon from "../../files/github.svg";
 import externalLink from "../../files/external-link.svg";
@@ -6,7 +7,6 @@ import ScrollAnimation from "react-animate-on-scroll";
 import projects from "./projects.json";
 import styled from "styled-components";
 
-// Styled component for the Load More button
 const LoadMoreButton = styled.button`
   padding: 1rem 3rem;
   background-color: #23ce6b;
@@ -29,9 +29,14 @@ const LoadMoreButton = styled.button`
 
 export function Project() {
   const [visibleProjects, setVisibleProjects] = useState(6);
+  const [selectedProject, setSelectedProject] = useState(null);
 
   const showMoreProjects = () => {
     setVisibleProjects((prev) => prev + 6);
+  };
+
+  const openModal = (project) => {
+    setSelectedProject(project);
   };
 
   return (
@@ -52,6 +57,8 @@ export function Project() {
                   strokeWidth="1"
                   strokeLinecap="round"
                   strokeLinejoin="round"
+                  onClick={() => openModal(project)}
+                  style={{ cursor: "pointer" }}
                 >
                   <title>Folder</title>
                   <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
@@ -81,7 +88,6 @@ export function Project() {
         ))}
       </div>
 
-      {/* Load More button centered */}
       {visibleProjects < projects.length && (
         <div
           style={{
@@ -92,6 +98,13 @@ export function Project() {
         >
           <LoadMoreButton onClick={showMoreProjects}>Load More</LoadMoreButton>
         </div>
+      )}
+
+      {selectedProject && (
+        <ProjectModal
+          project={selectedProject}
+          onClose={() => setSelectedProject(null)}
+        />
       )}
     </Container>
   );
