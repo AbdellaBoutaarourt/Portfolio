@@ -10,8 +10,7 @@
             "React",
             "Socket.IO",
             "Node.js",
-            "Tailwind",
-            "Stripe"
+            "Tailwind"
         ]
     },
     {
@@ -62,7 +61,7 @@
     },
     {
         "title": "AI Object Detective App",
-        "description": "A cross-platform AR application that combines object recognition with interactive AR content.",
+        "description": "A AR application that combines object recognition with interactive AR content.",
         "fullDescription": "The app leverages TensorFlow.js for real-time object detection and recognition through the device's camera. React Native and Expo ensure compatibility across platforms, making it a versatile educational and interactive tool.",
         "github": "https://github.com/AbdellaBoutaarourt/AR-app",
         "videoSrc": "src/files/videoApp.mp4",
